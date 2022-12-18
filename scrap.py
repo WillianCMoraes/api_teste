@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-import os
-from flask import Flask, request
-
 
 resp = requests.get('https://ge.globo.com/futebol/copa-do-mundo/2022/')
 
@@ -20,5 +17,4 @@ axies_lista = [i.text for i in axies]
 print(axies_lista)
 
 
-app.run(debug=True)5000))
   
