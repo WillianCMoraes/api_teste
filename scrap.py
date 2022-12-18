@@ -20,6 +20,5 @@ axies_lista = [i.text for i in axies]
 print(axies_lista)
 
 
-if __name__ =="__main__":
-    port = int(os.environ.get("PORT", 5000))
+app.run(debug=True)5000))
   
