@@ -1,7 +1,8 @@
-import streamlit as s
+
 from bs4 import BeautifulSoup
 import requests
 
+import streamlit as st
 
 resp = requests.get('https://ge.globo.com/futebol/copa-do-mundo/2022/')
 
