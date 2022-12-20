@@ -1,3 +1,4 @@
+import streamlit as s
 from bs4 import BeautifulSoup
 import requests
 
