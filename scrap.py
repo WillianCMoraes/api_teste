@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import requests
 
 import streamlit as st
+import pandas as pd
+
 st.write("Hello ,let's learn how to build a streamlit app together")
 
 resp = requests.get('https://ge.globo.com/futebol/copa-do-mundo/2022/')
